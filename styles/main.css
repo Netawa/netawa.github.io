@@ -1,0 +1,86 @@
+@font-face {
+	font-family: "Fira Mono";
+	src: url("../fonts/FiraMono-Regular.ttf") format("truetype"),
+    	url("../fonts/FiraMono-Medium.ttf") format("truetype"),
+    	url("../fonts/FiraMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Canaro";
+	src: url("../fonts/Canaro-LightDEMO.ttf") format("truetype"),
+    	url("../fonts/Canaro-LightItalicDEMO.ttf") format("truetype");
+}
+
+body {
+	margin: 0px;
+	background: #03071e;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	height: 15vh;
+	margin-bottom: 5vh;
+}
+
+.title{
+	color: #ffa848;
+	font-size: 45px;
+	font-family: "Canaro";
+	font-weight: bold;
+
+	margin-left: 3%;	
+}
+
+.head-buttons-block{
+	color: #ffa848;
+	font-size: 20px;
+	font-family: "Canaro";
+	font-weight: bold;
+
+	display: flex;
+	height: 100%;
+	width: 35%;
+}
+
+.buttons{
+	display: flex;
+	align-items: center;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.buttons:hover{
+	color: white;	
+	transition: color .5s;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+}
+
+.main {
+	width: 65%;
+}
+
+.main-introduction{
+	color: #ffa848;
+	font-size: 45px;
+	font-family: "Canaro";
+	font-weight: bold;
+}
+
+.main-text{
+	margin-top: 3vh;
+	color: #ffa848;
+	font-size: 20px;
+	font-family: "Canaro";
+}
+
