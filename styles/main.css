@@ -20,7 +20,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	
+
 	height: 15vh;
 	margin-bottom: 5vh;
 }
@@ -41,7 +41,7 @@ a:hover{
 	font-family: "Canaro";
 	font-weight: bold;
 
-	margin-left: 3%;	
+	margin-left: 3%;
 }
 
 .head-buttons-block{
@@ -67,12 +67,19 @@ main{
 	justify-content: center;
 	align-items: center;
 	flex-flow: column;
-	margin-top: 10vh;
-	margin-bottom: 5vh;
+	margin: 10vh 10% 5vh 10%;
 }
 
 .main {
 	width: 65%;
+	padding: 2vh 10% 2vh 10%;
+	border: 2px #ffa848 solid;
+}
+
+.main-header{
+  align-self: start;
+	padding: 2vh 5% 2vh 5%;
+  border: 2px #ffa848 solid;
 }
 
 .main-introduction{
@@ -87,4 +94,5 @@ main{
 	color: #ffa848;
 	font-size: 20px;
 	font-family: "Canaro";
+	margin-bottom: 4vh;
 }
